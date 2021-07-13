@@ -46,7 +46,7 @@ In order to enable the JDK to access the security token, you will first need to 
 ```
 name=eTokenn 
 library=c:\WINDOWS\system32\eTPKCS11.dll  
-slot=3 
+slot=0
 ```
 
 * Add the username of the token <br>
