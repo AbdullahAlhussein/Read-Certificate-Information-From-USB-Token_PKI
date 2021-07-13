@@ -3,9 +3,7 @@
 A USB token is a password-protected physical device used to store digital certificates.
 
  USB token based certificates are an implementation of PKCS#11, one of the Public-Key Cryptography Standards. Digital signature certificates are issued by a Certificate Authority (CA).
-
-To access the connected USB token using Java you need the device driver library path of the token. For instance, when SafeNet USB token device is installed on Windows, the USB token’s library file "eTPKCS11.dll" is installed at the directory "C:\WINDOWS\system32\". In order to load the certificates installed on the USB token into the Java KeyStore object, you need a valid password/PIN to access the USB token.
-
+ 
 ---
 ##	Read certificate information from token, such as:
 
