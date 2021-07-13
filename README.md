@@ -1,6 +1,6 @@
-# Read-Certificate-Information-From-USB-Token
+## Overview
 
-## 1.	Read certificate information from token, such as:
+##	Read certificate information from token, such as:
 
 A.	Issuer 
 
@@ -15,7 +15,7 @@ E.	Key usage
 F.	Signature algorithm 
 
 
-# Specifications of the usb token that worked on :
+## Specifications of the usb token that worked on :
 
 Token name: My Token
 
@@ -30,7 +30,7 @@ Card type: Java Card
 OS version: eToken Java Applet 1.8.5
 
 
-# Add an external configuration file which content following information:
+## Add an external configuration file which content following information:
 
 In order to enable the JDK to access the security token, you will first need to create a configuration file. Open any plain-text editor and create a file named eToken.cfg. The file should contain 2, possibly 3, lines:
 ```xml
@@ -47,7 +47,7 @@ Add the USB slot
 Note: The default slot number when left unspecified is 0. SafeNet eToken 5100 will automatically assign to slot 0, therefore there will be no need for the slot line in the .cfg file. However this may need to be changed depending on the number of eTokens/SmartCard readers installed. The default slot number for the SafeNet Ikey 4000 is slot 3. The slot line will be required when using a SafeNet iKey 4000.
 
 
-# Also, add an external library, which is sunpkcs11.jar to run this code :
+## Also, add an external library, which is sunpkcs11.jar to run this code :
 ```xml
  sun.security.pkcs11.SunPKCS11 providerPKCS11 = new sun.security.pkcs11.SunPKCS11(pkcs11Config);
 ```
