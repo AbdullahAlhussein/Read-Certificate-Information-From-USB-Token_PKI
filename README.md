@@ -23,7 +23,7 @@ F.	Signature algorithm
 ---
 ## Specifications of the usb token that worked on :
 
-Token name: My Token
+Token name: eToken
 
 Token category: Hardware
 
