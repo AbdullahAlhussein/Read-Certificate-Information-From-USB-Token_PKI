@@ -6,6 +6,14 @@ A USB token is a password-protected physical device used to store digital certif
  USB token based certificates are an implementation of PKCS#11, one of the Public-Key Cryptography Standards. Digital signature certificates are issued by a Certificate Authority (CA).
  
 ---
+## PKCS#11 
+
+The PKCS #11 standard defines a platform-independent API to cryptographic tokens, such as hardware security modules (HSM) and smart cards.
+
+The API defines most commonly used cryptographic object types (RSA keys, X.509 Certificates, DES/Triple DES keys, etc.) and all the functions needed to use, create/generate, modify and delete those objects [Read mor pkcs11]( https://docs.oracle.com/javase/7/docs/technotes/guides/security/p11guide.html#Intro).
+
+
+---
 ##	Read certificate information from token, such as:
 
 A.	Issuer 
