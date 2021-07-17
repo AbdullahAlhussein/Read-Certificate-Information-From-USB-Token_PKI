@@ -58,7 +58,7 @@ slot=0
 Note: The default slot number when left unspecified is 0. SafeNet eToken 5100 will automatically assign to slot 0, therefore there will be no need for the slot line in the .cfg file. However this may need to be changed depending on the number of eTokens/SmartCard readers installed. The default slot number for the SafeNet Ikey 4000 is slot 3. The slot line will be required when using a SafeNet iKey 4000.
 
 ---
-## Also, add an external library, which is sunpkcs11.jar to run  providerPKCS11 :
+## Also, add an external library, which is sunpkcs11.jar to run  provider PKCS11 :
 ```
  sun.security.pkcs11.SunPKCS11 providerPKCS11 = new sun.security.pkcs11.SunPKCS11(pkcs11Config);
 ```
