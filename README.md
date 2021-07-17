@@ -19,9 +19,9 @@ The API defines most commonly used cryptographic object types (RSA keys, X.509 C
 *	Private Key
 *	Public key
 *	Issuer 
-*	Key length 
-*	Key usage
+*	Key usage 
 *	Signature Algorithm
+*	Certificate Extensions
 * And a lot of information ....
 
 ---
