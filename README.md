@@ -43,16 +43,17 @@ OS version: eToken Java Applet 1.8.5
 ## Add an external configuration file which content following information:
 
 In order to enable the JDK to access the security token, you will first need to create a configuration file. Open any plain-text editor and create a file named eToken.cfg. The file should contain 2, possibly 3, lines:
-```
-name=eTokenn 
-library=c:\WINDOWS\system32\eTPKCS11.dll  
-slot=0
-```
 
 * Add the username of the token <br>
 * Adding the path of the library dedicated to the usb token, which is the eTPKCS11.dll library <br>
 * Add the USB slot
 
+
+```
+name=eTokenn 
+library=c:\WINDOWS\system32\eTPKCS11.dll  
+slot=0
+```
 
 Note: The default slot number when left unspecified is 0. SafeNet eToken 5100 will automatically assign to slot 0, therefore there will be no need for the slot line in the .cfg file. However this may need to be changed depending on the number of eTokens/SmartCard readers installed. The default slot number for the SafeNet Ikey 4000 is slot 3. The slot line will be required when using a SafeNet iKey 4000.
 
