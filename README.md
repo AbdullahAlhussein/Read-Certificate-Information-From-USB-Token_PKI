@@ -62,3 +62,10 @@ Note: The default slot number when left unspecified is 0. SafeNet eToken 5100 wi
 ```
  sun.security.pkcs11.SunPKCS11 providerPKCS11 = new sun.security.pkcs11.SunPKCS11(pkcs11Config);
 ```
+![PKI23](https://user-images.githubusercontent.com/70335592/126527885-e50af583-0970-4032-ae43-776b42326524.png)
+
+```
+ KeyStore.CallbackHandlerProtection chp = new KeyStore.CallbackHandlerProtection(new MyGuiCallbackHandler() {});
+ KeyStore.Builder builder = KeyStore.Builder.newInstance("PKCS11", null, chp);
+ KeyStore keyStore = builder.getKeyStore();
+ ```
