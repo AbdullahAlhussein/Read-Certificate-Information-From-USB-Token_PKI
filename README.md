@@ -1,3 +1,7 @@
+# Read-Certificate-Information-From-USB-Token
+USB token based certificates are an implementation of PKCS#11, one of the Public-Key Cryptography Standards. Digital signature certificates are issued by a Certificate Authority (CA).
+
+
 ## Overview
 ![Group-1198](https://user-images.githubusercontent.com/70335592/125410523-a0c10980-e3c5-11eb-85c3-e99214753fc5.png)
 
