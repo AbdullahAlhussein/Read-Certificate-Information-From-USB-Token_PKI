@@ -9,6 +9,37 @@ A USB token is a password-protected physical device used to store digital certif
 
  USB token based certificates are an implementation of PKCS#11, one of the Public-Key Cryptography Standards. Digital signature certificates are issued by a Certificate Authority (CA).
  
+ 
+ ---
+ 
+ ## installation
+ 
+ <br>
+ 
+ The programs and systems used and the most important uses Software package must be installed :
+
+ ### 1- safeNet Authentication Client
+
+* Change Token PIN
+* Change Token Name
+* Install tokens drivers
+* Insert token PIN when need to Sign or decrypt process
+
+
+### 2-Entrust Entelligence Security Provider
+
+* Signing & Encryption Files ,Emails
+* Certificates Explore
+* Check validity of Certificate
+* Create Encryption Group
+*  Exchange Digital Certificates With others
+
+
+### 3-Download eTPKCS11.dll
+### 4-Download sunpkcs11.jar
+
+
+
 ---
 ## PKCS#11 
 
