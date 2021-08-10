@@ -87,6 +87,10 @@ When you run the program, a window will appear to enter the password to be able 
 
 ---
 
+### Then the program will print all certification information
+
+---
+
 <br>
 
 ### Good Luck <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> 
