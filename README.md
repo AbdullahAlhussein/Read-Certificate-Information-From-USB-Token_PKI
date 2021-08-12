@@ -25,7 +25,7 @@ The API defines most commonly used cryptographic object types (RSA keys, X.509 C
 
 <br>
  
- ## Specifications of the usb token that worked on :
+ ## Specifications of the USB Token that worked on :
 
 Token name: eToken
 
